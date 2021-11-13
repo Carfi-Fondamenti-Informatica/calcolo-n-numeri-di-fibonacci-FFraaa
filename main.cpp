@@ -2,15 +2,14 @@
 using namespace std;
 
 int main() {
-    int a=0,b=1,n=0,c=a+b;
-cin>>n;
+    int a=1; b=1;
+cout<<a<<endl;
 cout<<b<<endl;
-for(int i=2;i<(n+1);i++){
-    if(c<=n){
-        cout<<c<<endl;
+for(int i=1;i<=n;i++){
+    Somma=a+b;
+        cout<<somma<<endl;
         a=b;
-        b=c;
-        c=a+b;
+        b=somma;
     }
 }
     return 0;
