@@ -11,8 +11,6 @@ for(int i=2;i<(n+1);i++){
         a=b;
         b=c;
         c=a+b;
-    }else{
-        cout<<"errore"<<endl;
     }
 }
     return 0;
